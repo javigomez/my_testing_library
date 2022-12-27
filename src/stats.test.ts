@@ -1,6 +1,6 @@
 import {average, sum} from './stats';
 import * as statsAsync from './statsAsync';
-import {expect, test} from "./testLib";
+// import {expect, test} from "./testLib";
 
 test('calculates the sum of all elements of the array', () =>{
     let result = sum([1,2,3])
